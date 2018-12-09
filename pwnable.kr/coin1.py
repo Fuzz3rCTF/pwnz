@@ -1,3 +1,4 @@
+# https://www.beginnersbook.in/binary-search-algorithm/
 from pwn import *
 
 r = remote('pwnable.kr', 9007)
